@@ -1,5 +1,5 @@
 body {
-    background-color: #ffc3da;
+    background-color: #ececec;
 }
 
 .envelope-wrapper {
@@ -234,4 +234,49 @@ body {
     color:rgb(20, 20, 20);
     font-size: 70px;
     margin: 150px;
+}
+
+
+/* Only for mobile devices */
+@media (max-width: 600px) {
+
+    .envelope-wrapper {
+        height: auto;
+        margin-top: 100px;
+    }
+
+    #envelope {
+        width: 90%;
+        height: 170px;
+    }
+
+    .flap {
+        border-left: 45vw solid transparent;
+        border-right: 45vw solid transparent;
+    }
+
+    .pocket {
+        border-left: 45vw solid #FF8BA0;
+        border-right: 45vw solid #FF8BA0;
+    }
+
+    .letter {
+        width: 95%;
+        height: 90%;
+    }
+
+    .words {
+        font-size: 14px;
+    }
+
+    .reset button {
+        min-width: 120px;
+        font-size: 12px;
+        margin-top: 40px;
+    }
+
+    .valentine {
+        font-size: 32px;
+        margin: 40px 10px;
+    }
 }
